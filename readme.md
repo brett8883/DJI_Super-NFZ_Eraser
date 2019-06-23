@@ -1,5 +1,5 @@
 ***SUPER-NFZ REMOVER***
-*Tool to replace NFZ database on Mavic Pro/MPP/MP Artic White running on a stock or DJI_Super-Patcher https://github.com/brett8883/DJI_Super-Patcher patched v01.04.0300 firmware. 
+*Tool to replace NFZ database on Mavic Pro/MPP/MP Artic White running on a stock or DJI_Super-Patcher https://github.com/brett8883/DJI_Super-Patcher patched v01.04.0300 firmware.*
 
 Super-NFZ Remover will replace the NFZ database that lives on the Mavic with an empty database effectively removing the NFZ database. 
 
@@ -8,9 +8,9 @@ BACKGROUND: On firmware version 01.04.0300 there is a anti-tamper mechanism that
 Step by step
 1. Download full repository and keep  all files in original folders
 2. Turn on Mavic and connect to PC 
-3. Double click ìDUML_for_nfz_removal_only.exeî
-4. [alt] [click] on ìload firmwareî and choose ìClear_nfzdb_dji_system.binî
-5. Click ìflash firmwareî 
+3. Double click ‚ÄúDUML_for_nfz_removal_only.exe‚Äù
+4. [alt] [click] on ‚Äúload firmware‚Äù and choose ‚ÄúClear_nfzdb_dji_system.bin‚Äù
+5. Click ‚Äúflash firmware‚Äù 
 6. Allow it to do its thing which can take several minutes. 
 7. Once flashing is complete restart Mavic and done!
 
