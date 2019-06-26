@@ -1,4 +1,4 @@
-***SUPER-NFZ REMOVER***
+# ***SUPER-NFZ REMOVER***
 
 *Tool to replace NFZ database on Mavic Pro/MPP/MP Artic White running on a stock or DJI_Super-Patcher https://github.com/brett8883/DJI_Super-Patcher patched v01.04.0300 firmware.*
 
@@ -25,7 +25,11 @@ With your rooted device connected to the PC, type the command
 adb pull /amt/nfz 
 
 This will copy the NFZ folder from the Mavic into the folder you made. In it is the nfz.db which you can open in some DB browser like https://sqlitebrowser.org/
-I did not create this hack. I believe it was @jezzab https://github.com/jezzab who created the hack so I take no credit for it. I just put it together into a single cohesive project and have written these instructions. 
+
+I did not create this hack. 
+
+jezzab https://github.com/jezzab created the hack so I take no credit for it. I just put it together into a single cohesive project and have written these instructions. 
+
 This project is dependent on the DUMLdore project https://github.com/jezzab/DUMLdore made by @jezzab
 
 
