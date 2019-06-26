@@ -1,4 +1,5 @@
 ***SUPER-NFZ REMOVER***
+
 *Tool to replace NFZ database on Mavic Pro/MPP/MP Artic White running on a stock or DJI_Super-Patcher https://github.com/brett8883/DJI_Super-Patcher patched v01.04.0300 firmware.*
 
 Super-NFZ Remover will replace the NFZ database that lives on the Mavic with an empty database effectively removing the NFZ database. 
