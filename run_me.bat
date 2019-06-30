@@ -1,28 +1,29 @@
 @echo off 
 echo DJI Super NFZ Eraser
-echo ***********************
+echo *************************************************************************************
 echo This tool will remove the GeoZones from the 
 echo NFZ database that lives on DJI drones 
 echo therefore disabling them
-echo ***********************
+echo *************************************************************************************
 pause 
 echo please turn on your aircraft and connect it to this computer
 echo make sure it it fully started up before proceeding 
 pause
-cd DUML_for_nfz_removal_only
+cd TOOLS
 start DUML_for_nfz_removal_only.exe
+echo *************************************************************************************
 echo hold the alt key on your keyboard and then click "load" in DUML_for_nfz_removal_only.
 echo Choose the "Clear_nfzdb_dji_system.bin" 
 echo from the DJI_Super_NFZ_Eraser folder
 echo then click "flash" in DUML_for_nfz_removal_only
-echo *******************************
+echo *************************************************************************************
 echo Allow DUML_for_nfz_removal_only to do its thing 
 echo then when it is done and says it is ok to restart
 echo close DUML_for_nfz_removal_only and restart aircraft
 echo when aircraft has full restarted and connected to this PC 
 echo you may continue
 pause
-cd DUMLdoreV3
+echo *************************************************************************************
 start DUMLdoreV3.exe
 cd nfz.db_verification
 echo click "enable ADB" in DUMLdore 3.2
