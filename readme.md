@@ -18,15 +18,9 @@ Step by step
 7. Once flashing is complete restart Mavic and done!
 
 VERIFICATION
-To verify NFZ.db has been erased you can reconnect your bird once it restarts and then open DULMdore 3.2. Close DULMdore once the "enable ADB" process is done and make a directory somewhere on your computer 
+To verify NFZ.db has been erased you can reconnect your bird once it restarts and then open DULMdore 3.2. Close DULMdore once the "enable ADB" process is done  
 
-in a windows command line type
-
-cd [**drag and drop the folder you made into cmd line**]
-
-adb shell mount -o remount,rw /amt
-adb pull /amt/nfz/nfz.db 
-adb mount -o remount,ro /amt
+Then double click the pull_nfz_db.bat to make a copy of the nfz.db on the drone and save it to the nfz_db folder 
 
 This will copy the nfz.db from the Mavic into the folder you made.
 
