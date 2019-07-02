@@ -24,7 +24,8 @@ echo 				  DJI Super NFZ Eraser
 Echo 				by jezzab and Brett8883
 echo **************************************************************************************
 echo **************************************************************************************
-echo hold the alt key on your keyboard and then click "load" in DUML_for_nfz_eraser_only.
+echo Hold[alt]+[click] on "load" in DUML_for_nfz_eraser_only.
+echo **************************************************************************************
 echo Choose the "erase_nfzdb_dji_system.bin" 
 echo then click "flash" in DUML_for_nfz_removal_only
 echo *******************************
@@ -64,23 +65,25 @@ adb shell mount -o remount,ro /amt
 echo **************************************************************************************
 echo You can now turn off your aircraft...
 echo **************************************************************************************
-echo the nfz.db file from your aircraft has been copied to the 
-echo 	nfz.db_verification folder 
-echo **************************************************************************************
-echo Use DB Browser for Sqlite to browse the nfz.db file 
-echo in the nfz.db_verification folder
-echo there should be no database entries 
-echo **************************************************************************************
-echo Once you have confirmed there no database entries you 
-echo know the process has been a success!
-echo **************************************************************************************
-echo Please Continue to open DB Browser for Sqlite 
-pause 
 cd ..
 cd tools
 cd SQLiteDatabaseBrowserPortable
 start SQLiteDatabaseBrowserPortable.exe
-Echo Bye!
-pause
-exit 
+echo the nfz.db file from your aircraft has been copied to the 
+echo 	nfz.db_verification folder in Super-DJI_NFZ_Eraser
+echo **************************************************************************************
+echo Use DB Browser for Sqlite to browse the nfz.db file in the nfz.db_verification folder 
+echo 	there should be no database entries 
+echo **************************************************************************************
+echo Open the nfz.db file in DB Browser for Sqlite and then use the browse function 
+echo 	to look through the data base. Dont worry if you cant find anything 
+echo **************************************************************************************
+echo 							YOU AREN'T SUPPOSE TO!
+echo **************************************************************************************
+echo Once you have confirmed there no database entries you 
+echo 	know the process has been a success!
+echo **************************************************************************************
+Echo This is the end of DJI Super NFZ Eraser 
+pause 
+exit
 
