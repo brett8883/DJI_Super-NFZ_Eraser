@@ -39,3 +39,7 @@ Includes a non-modified version of the DUMLdore project https://github.com/jezza
 
 Thanks to https://sqlitebrowser.org/dl/#windows for making a lightweight DB browser I was able to include in this program. 
 
+Thanks to the OGs who, by making their work open, have enabled me to liberate myself from the bondage imposed by DJI and inspired me to help others to liberate themselves. Their past work has gone into this project and they continually have helped me get better at making projects. 
+
+Thanks and shout out to digdat0 who I barrowed the GUI design from. 
+
