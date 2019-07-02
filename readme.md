@@ -32,6 +32,7 @@ This will copy the nfz.db from the Mavic into the folder you made.
 You can then browse the db to ensure there are no entries in it with a DB browser like https://sqlitebrowser.org/dl/#windows
 
 **Acknowlegments**
+
  First of all I did not create the ingenious mod behind this project it was created by jezzab https://github.com/jezzab and all I did was bring an under appreciated mod from the celler, slapped a nice dress on it, made into a single cohesive package, and created the "verify" steps. Other than that it was all Jezzab https://github.com/jezzab 
 
 Includes a modified version of the DUMLdore https://github.com/jezzab/DUMLdore by @jezzab
