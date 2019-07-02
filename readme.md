@@ -14,22 +14,14 @@ Included is a special moddified version of DULMdore v3.03 which I have renammed 
 
 **Step-by-step**
 1. Download full repository and keep all files in original folders
-2. Turn on Mavic and connect to PC 
-3. Double click “DUML_for_nfz_removal_only.exe”
-4. [alt] [click] on “load firmware” and choose “Clear_nfzdb_dji_system.bin”
-5. Click “flash firmware” 
-6. Allow it to do its thing which can take several minutes. 
-7. Once flashing is complete restart Mavic and done!
-
+2. Double click run_me.bat to start
+3. Follow the directions in the run_me.bat to load the “Clear_nfzdb_dji_system.bin” into DUMLdore_for_nfz_eraser_only 
+4. Let DUMLdore_for_nfz_eraser_only do its thing, it can take several minutes
+5. The deed is done at this point but you can continue to verify if you'd like
 **VERIFICATION**
-
-To verify NFZ.db has been erased you can reconnect your bird once it restarts and then open DULMdore 3.2. Close DULMdore once the "enable ADB" process is done  
-
-Then double click the pull_nfz_db.bat to make a copy of the nfz.db on the drone and save it to the nfz_db folder 
-
-This will copy the nfz.db from the Mavic into the folder you made.
-
-You can then browse the db to ensure there are no entries in it with a DB browser like https://sqlitebrowser.org/dl/#windows
+6. After re-starting aircraft you will be prompted to [click] "Enable ADB" in DUMLdore 3.2
+6. The nfz.db will be copied to the nfz_verification folder 
+7. DB Browser for Sqlite will automatically open and you can load the nfz.db file to browse through it 
 
 **Acknowlegments**
 
@@ -42,5 +34,5 @@ Thanks to https://sqlitebrowser.org/dl/#windows for making a lightweight DB brow
 
 Thanks to the OGs who, by making their work open, have enabled me to liberate myself from the bondage imposed by DJI and inspired me to help others to liberate themselves. Their past work has gone into this project and they continually have helped me get better at making projects. 
 
-Thanks and shout out to digdat0 who I barrowed the GUI design from. 
+Thanks and shout out to digdat0 who I barrowed some GUI design from here. 
 
