@@ -1,0 +1,1 @@
+This is just the plain blank nfz.bd and its nfz.sig file 
