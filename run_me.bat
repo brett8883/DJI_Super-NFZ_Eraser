@@ -24,9 +24,15 @@ echo 				  DJI Super NFZ Eraser
 Echo 				by jezzab and Brett8883
 echo **************************************************************************************
 echo **************************************************************************************
-echo Hold[alt]+[click] on "load" in DUML_for_nfz_eraser_only.
-echo **************************************************************************************
-echo Choose the "erase_nfzdb_dji_system.bin" 
+echo.
+echo IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! 
+echo Hold[alt] on keyboard +[click] on "load" in DUML_for_nfz_eraser_only.
+echo IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT!
+echo.
+echo and choose the file "erase_nfzdb_dji_system.bin"
+echo.
+echo It is vital that you hold [alt] when clicking "load" in DUMLdore_for_nfz_eraser
+echo.
 echo then click "flash" in DUML_for_nfz_removal_only
 echo *******************************
 echo Allow DUML_for_nfz_removal_only to do its thing 
@@ -43,7 +49,7 @@ cd DUMLdoreV3.2
 start DUMLdoreV3.exe
 cd ..
 cd ..
-cd nfz.db_verification
+cd tools
 cls
 echo **************************************************************************************
 echo 				  DJI Super NFZ Eraser
@@ -59,14 +65,18 @@ echo 				  DJI Super NFZ Eraser
 Echo 				by jezzab and Brett8883
 echo **************************************************************************************
 echo **************************************************************************************
+@echo on
 adb shell mount -o remount,rw /amt
 adb pull /amt/nfz/nfz.db
 adb shell mount -o remount,ro /amt
+@echo off
+ECHO DONE! Continue when ready
+pause
+echo **************************************************************************************
+echo **************************************************************************************
 echo **************************************************************************************
 echo You can now turn off your aircraft...
 echo **************************************************************************************
-cd ..
-cd tools
 cd SQLiteDatabaseBrowserPortable
 start SQLiteDatabaseBrowserPortable.exe
 echo the nfz.db file from your aircraft has been copied to the 
