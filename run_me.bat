@@ -1,4 +1,6 @@
 @echo off
+mode con: cols=92 lines=45
+title DJI Super-NFZ Eraser
 echo **************************************************************************************
 echo 				  DJI Super NFZ Eraser
 Echo 				by jezzab and Brett8883
@@ -71,6 +73,7 @@ adb shell mount -o remount,rw /amt
 adb pull /amt/nfz/nfz.db
 adb shell mount -o remount,ro /amt
 @echo off
+title DJI Super-NFZ Eraser
 ECHO DONE! Continue when ready
 pause
 echo **************************************************************************************
@@ -80,6 +83,7 @@ echo You can now turn off your aircraft...
 echo **************************************************************************************
 cd SQLiteDatabaseBrowserPortable
 start SQLiteDatabaseBrowserPortable.exe
+title DJI Super-NFZ Eraser
 echo the nfz.db file from your aircraft has been copied to the 
 echo 	nfz.db_verification folder in Super-DJI_NFZ_Eraser
 echo **************************************************************************************
