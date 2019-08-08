@@ -26,18 +26,19 @@ echo ***************************************************************************
 echo **************************************************************************************
 echo.
 echo IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! 
-echo Hold[alt] on keyboard +[click] on "load" in DUML_for_nfz_eraser_only.
+echo Hold[alt] on keyboard +[click] on "Load Firmware" in DUMLdore V3.03
 echo IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT!
 echo.
 echo and choose the file "erase_nfzdb_dji_system.bin"
 echo.
-echo It is vital that you hold [alt] when clicking "load" in DUMLdore_for_nfz_eraser
+echo It is vital that you hold [alt] when clicking "Load Firmware" in DUMLdore v3.03.
 echo.
-echo then click "flash" in DUML_for_nfz_removal_only
-echo *******************************
-echo Allow DUML_for_nfz_removal_only to do its thing 
+echo then click "flash" in DUML_for_nfz_removal_only only if you held the [ALT] key
+echo When you clicked "Load Firmware" in DUMLdore V3.03
+echo **************************************************************************************
+echo Allow DUMLdore V3.03 to do its thing 
 echo then when it is done and says it is ok to restart
-echo close DUML_for_nfz_removal_only and restart aircraft
+echo close DUMLdore V3.03 and restart aircraft
 echo when aircraft has full restarted and connected to this PC 
 echo you may continue
 cd tools
