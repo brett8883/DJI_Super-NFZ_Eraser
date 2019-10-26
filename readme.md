@@ -1,3 +1,6 @@
+<a href="https://github.com/brett8883/DJI_Super_NFZ-Eraser
+" target="_blank"><img src="https://github.com/brett8883/DJI_Super-NFZ_Eraser/blob/2.0/ProgramFiles/NFZeraser.jpg"
+alt="IMAGE ALT TEXT HERE" width="950" height="180" border="10" /></a>
 # DJI Super-NFZ Eraser
 
 *Tool to erase GeoZone entries from the nfz database on Mavic Pro/MPP/MP Artic White running a stock firmware version v01.04.0300 or a DJI_Super-Patcher https://github.com/brett8883/DJI_Super-Patcher patched firmware* 
