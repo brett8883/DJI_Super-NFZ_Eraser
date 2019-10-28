@@ -1,1 +1,0 @@
-This is where the nfz.db will be located after extraction from aircraft
