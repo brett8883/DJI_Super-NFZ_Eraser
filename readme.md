@@ -16,7 +16,7 @@ On firmware version 01.04.0300 there is an anti-tamper mechanism that prevents f
 1. Download full repository and keep all files in original folders
 2. Double click DJI_NFZ-Eraser.cmd to start
 3. Follow the directions in the DJI_NFZ-Eraser.cmd enable adb with dumldore
-4. The program will automaticall clear the NFZ database as soon as dumldore has been closed 
+4. The program will automatically clear the NFZ database as soon as dumldore has been closed 
 
 ### Acknowlegments 
 
